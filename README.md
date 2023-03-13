@@ -11,7 +11,7 @@ Every process will get at least n / size, $size$ is the total number of processe
 
 Before exchanging the whole data, each process will exchange their maximum or minimum data before exchanging their whole section of data, this reduced the total amount of communication time needed. Next, merge sort is done by swapping array pointer, instead of copying the entire array.
 
-'''MPI_Allreduce''' and '''MPI_LOR''' are used to check for early termination. If the current state is the same as the previous state, the programm will terminate early.
+`MPI_Allreduce` and `MPI_LOR` are used to check for early termination. If the current state is the same as the previous state, the programm will terminate early.
 
 
 
