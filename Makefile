@@ -2,7 +2,7 @@ CC = mpicc
 CXX = mpicxx
 CXXFLAGS = -std=c++17 -O3
 CFLAGS = -O3
-TARGETS = hw1
+TARGETS = main
 
 .PHONY: all
 all: $(TARGETS)
